@@ -1,0 +1,19 @@
+ function enough(cap, on, wait) {
+console.log(cap)
+
+console.log(wait)
+console.log(on)
+var ss=(on+wait)-cap;
+if(ss>0)
+{
+  return ss;
+}
+else if (ss<0)
+{
+return 0;
+}
+else
+{
+return 0
+}
+}
